@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import lightOff from "../assets/images/light-off.png"; // use .. when directory is nested
 import lightOn from "../assets/images/light-on.png";
 
-function State(){
+function LightToggle(){
     let [isLightOn, updateStatus] = useState(false);
 
     useEffect(()=>{
@@ -23,4 +23,4 @@ function State(){
     )
 }
 
-export default State;
+export default LightToggle;

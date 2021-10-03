@@ -3,7 +3,7 @@ import lightOff from "../assets/images/light-off.png"; // use .. when directory 
 import lightOn from "../assets/images/light-on.png";
 document.title = "Class Component Method";
 
-class State extends React.Component{  
+class LightToggle extends React.Component{  
     constructor(){
         super();
         this.state = {
@@ -28,4 +28,4 @@ class State extends React.Component{
     }
 }
 
-export default State;
+export default LightToggle;
